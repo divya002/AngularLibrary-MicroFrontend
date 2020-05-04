@@ -15,12 +15,12 @@
       "es2018",
       "dom"
     ],
-    "paths": {
-      "weather": [
-        "dist/weather/weather",
-        "dist/weather"
-      ]
-    }
+    // "paths": {
+    //   "weather": [
+    //     "dist/weather/weather",
+    //     "dist/weather"
+    //   ]
+    // }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
