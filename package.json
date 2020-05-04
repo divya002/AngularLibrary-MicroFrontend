@@ -1,6 +1,6 @@
 {
   "name": "weatherwidget",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "weatherbuild": "ng build weather"
+    "weatherbuild": "ng build weather && cd dist/weather && npm publish --registry http://localhost:4873"
   },
   "private": true,
   "dependencies": {
@@ -20,9 +20,9 @@
     "@angular/platform-browser": "~9.0.6",
     "@angular/platform-browser-dynamic": "~9.0.6",
     "@angular/router": "~9.0.6",
+    "lib-weather": "0.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "weather": "file:dist/weather/weather-0.0.1.tgz",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
